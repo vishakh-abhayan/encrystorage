@@ -1,4 +1,4 @@
-# vcrypt
+# vcrypt 🔗
 
 ![npm](https://img.shields.io/npm/v/vcrypt?color=blue)
 ![license](https://img.shields.io/npm/l/vcrypt)
@@ -19,3 +19,20 @@ Install the package via npm:
 ```bash
 npm install vcrypt
 ```
+## How to Use
+
+```javascript
+import SecureStorage from 'vcrypt';
+
+const encryptionKey = 'your-secret-key';
+const secureStorage = new SecureStorage(encryptionKey);
+
+const sensitiveData = 'sensitive information';
+secureStorage.encryptAndSave(sensitiveData);
+
+// Later, retrieve and decrypt the data
+const decryptedData = secureStorage.getAndDecrypt();
+console.log(decryptedData); // Output: 'sensitive information'
+
+```
+
