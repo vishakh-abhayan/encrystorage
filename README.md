@@ -52,7 +52,7 @@ If you encounter any bugs or have suggestions for improvements, please open an i
 
 ### Support
 
-If you need any assistance or have questions about using the package, feel free to contact us via the GitHub repository or by email at support@example.com.
+If you need any assistance or have questions about using the package, feel free to contact us via the GitHub repository or by email at vishakhabhayan0@gmail.com
 
 ##
 
