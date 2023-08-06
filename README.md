@@ -35,3 +35,29 @@ secureStorage.encryptAndSave(sensitiveData);
 const decryptedData = secureStorage.getAndDecrypt();
 console.log(decryptedData); // Output: 'sensitive information'
 ```
+
+## How to Contribute
+
+We welcome contributions to improve the "browser-encrypt-storage" package. To contribute, follow these steps:
+
+1.Fork the repository.
+2.Create a new branch for your feature or bug fix.
+3.Make changes and commit them.
+4.Push your branch to your forked repository.
+5.Create a pull request to the main repository.
+
+### Posting Issues
+
+If you encounter any bugs or have suggestions for improvements, please open an issue on GitHub. We appreciate your feedback and will address the issues as soon as possible.
+
+### Support
+
+If you need any assistance or have questions about using the package, feel free to contact us via the GitHub repository or by email at support@example.com.
+
+##
+
+### ISC License (ISC)
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
