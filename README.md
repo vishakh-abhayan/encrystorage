@@ -9,7 +9,7 @@ The "vcrypt" package is a lightweight and secure solution for encrypting and dec
 
 ### Tech Stack
 
-- JavaScript
+- TypeScript
 - CryptoJS (for encryption and decryption)
 
 ## Installation
