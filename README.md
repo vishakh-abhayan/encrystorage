@@ -1,11 +1,11 @@
-# vcrypt 🔗
+# encrystorage 🔗
 
-![npm](https://img.shields.io/npm/v/vcrypt?color=blue)
-![license](https://img.shields.io/npm/l/vcrypt)
+![npm](https://img.shields.io/npm/v/encrystorage?color=blue)
+![license](https://img.shields.io/npm/l/encrystorage)
 
 ## About
 
-The "vcrypt" package is a lightweight and secure solution for encrypting and decrypting sensitive data in the local storage of web browsers. It provides two simple yet powerful functions that enable developers to store and retrieve encrypted data securely.
+The "encrystorage" package is a lightweight and secure solution for encrypting and decrypting sensitive data in the local storage of web browsers. It provides two simple yet powerful functions that enable developers to store and retrieve encrypted data securely.
 
 ### Tech Stack
 
@@ -17,22 +17,21 @@ The "vcrypt" package is a lightweight and secure solution for encrypting and dec
 Install the package via npm:
 
 ```bash
-npm install vcrypt
+npm install encrystorage
 ```
+
 ## How to Use
 
 ```javascript
-import SecureStorage from 'vcrypt';
+import SecureStorage from "encrystorage";
 
-const encryptionKey = 'your-secret-key';
+const encryptionKey = "your-secret-key";
 const secureStorage = new SecureStorage(encryptionKey);
 
-const sensitiveData = 'sensitive information';
+const sensitiveData = "sensitive information";
 secureStorage.encryptAndSave(sensitiveData);
 
 // Later, retrieve and decrypt the data
 const decryptedData = secureStorage.getAndDecrypt();
 console.log(decryptedData); // Output: 'sensitive information'
-
 ```
-

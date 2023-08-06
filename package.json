@@ -1,5 +1,5 @@
 {
-  "name": "vcrypt",
+  "name": "encrystorage",
   "version": "1.0.0",
   "description": "A lightweight and secure solution for encrypting and decrypting sensitive data in the local storage of web browsers.",
   "main": "src/index.ts",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishakh-abhayan/vcrypt.git"
+    "url": "git+https://github.com/vishakh-abhayan/encrystorage.git"
   },
   "keywords": [
-    "vcrypt",
+    "encrystorage",
     "encrypt",
     "decrypt",
     "localstorage",
@@ -22,9 +22,9 @@
   "author": "Vishakh Abhayan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vishakh-abhayan/vcrypt/issues"
+    "url": "https://github.com/vishakh-abhayan/encrystorage/issues"
   },
-  "homepage": "https://github.com/vishakh-abhayan/vcrypt#readme",
+  "homepage": "https://github.com/vishakh-abhayan/encrystorage#readme",
   "dependencies": {
     "crypto-js": "^4.1.1"
   },
