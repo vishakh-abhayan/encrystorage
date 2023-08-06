@@ -1,0 +1,35 @@
+{
+  "name": "vcrypt",
+  "version": "1.0.0",
+  "description": "A lightweight and secure solution for encrypting and decrypting sensitive data in the local storage of web browsers.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishakh-abhayan/vcrypt.git"
+  },
+  "keywords": [
+    "vcrypt",
+    "encrypt",
+    "decrypt",
+    "localstorage",
+    "string",
+    "encryption",
+    "react"
+  ],
+  "author": "Vishakh Abhayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishakh-abhayan/vcrypt/issues"
+  },
+  "homepage": "https://github.com/vishakh-abhayan/vcrypt#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "typescript": "^5.1.6"
+  }
+}
